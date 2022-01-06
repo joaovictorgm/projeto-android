@@ -81,10 +81,42 @@
             <p>Site criado por <a href="https://github.com/joaovictorgm"target="_blank">João Victor Gabriel </a></p>
         </footer>
         <script>
+            var agora = new Date ()
+            var hora = agora.getHours()
+            var minutos = agora.getMinutes()
+            
+                /*      switch(diasem){
+                case 0 :
+                    console.log(' Domingo')
+                    break
+                case 1 :
+                    console.log('Segunda')
+                     break
+                case 2 :
+                    console.log('Terça')
+                     break
+                case 3 :
+                    console.log('Quarta')
+                    break
+                case 4 : 
+                    console.log('Quinta')
+                    break
+                case 5 :
+                    console.log('Sexta')
+                    break
+                case 6 : 
+                    console.log('Sabado')
+                default : 
+                console.log('[ERRO] Dia inválido.')
+                break                            
+            }*/
+            
+            window.confirm(`Bem vindo ao meu site, agora são  ${hora} horas e ${minutos} minutos.`)
+                
 
-            var nome = window.prompt('Qual é o seu nome?')
-            window.alert(`Bem vindo , ${nome}.`)
+            
         </script>
+
         
 
 
